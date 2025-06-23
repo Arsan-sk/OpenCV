@@ -1,5 +1,7 @@
 import cv2
 
+#open cv have BGR color schem instead of RGB i.e. Blue Green Red not Red Green Blue
+
 # -1, cv2.IMREAD_COLOR READ the image in color
 #  0, cv2.IMREAD_GRAYSCALE READ the image in grayscale
 #  1, cv2.IMREAD_UNCHANGED READ the image in unchanged mode include alpha channel if present
