@@ -33,7 +33,7 @@ while True:
         roi_frame = frame[y:y+h, x:x+w] # we took y first as at indexing columns come first just so thats it
         eyes = eye_cascade.detectMultiScale(roi_gray, 1.3, 5)
         for (ex, ey, ew, eh) in eyes:
-            cv2.rectangle(roi_frame, (ex , ey), (ex + ew , ey + eh), (0,0,255), 5)c
+            cv2.rectangle(roi_frame, (ex , ey), (ex + ew , ey + eh), (0,0,255), 5)
 
 
     cv2.imshow("Feed", frame)
