@@ -1,4 +1,4 @@
-# Here we have done a Template Matching i.e. Ibject Finding or can say matching a template image with in a source image simply by comarung the pixel values of the template image with the source image and finding the best match using correlation method.
+# Here we have done a Template Matching i.e. Object Finding or can say matching a template image with in a source image simply by comarung the pixel values of the template image with the source image and finding the best match using correlation method.
 # for performing this we have many algorithms which we used 
 # note try to match the pixel values of base and template image like the piels which tamplate image have the area in base image have that tamplate also be around that size so its easie instead like base image of 500 by 500 px and the tamplate is 1000ox by 1000px
 import cv2
