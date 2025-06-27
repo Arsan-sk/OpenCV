@@ -88,7 +88,7 @@ python basics/opencv_basics1.py
 ```
 Ensure the path to the image file (like 'assets/AS.jpg') exists. Otherwise, update it accordingly.
 
-## 📄 ## 📄 Function Documentation
+## 📄 Function Documentation
 
 - [`cv2.imread()`](https://docs.opencv.org/4.x/d4/da8/group__imgcodecs.html#ga14b471d44c629f12bce908891f1006f5) – Read an image from file.
 - [`cv2.imshow()`](https://docs.opencv.org/4.x/d7/dfc/group__highgui.html#ga7cbe95544b3c9c6f72f6cce72d08b55c) – Display an image in a window.
